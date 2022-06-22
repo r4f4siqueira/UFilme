@@ -9,20 +9,33 @@ header{
 
 .logo{
     text-decoration: none;
+    width: 150px;
     font-size: 30px;
     cursor: pointer;
     color: #fff;
     font-weight: bold;
+    border: solid #fff 2px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: all 0.4s;
 }
 
 .favoritos{
     text-decoration: none;
+    font-weight: bold;
     cursor: pointer;
     background-color: #fff;
     padding: 5px 14px;
     color: #000000;
     border-radius: 4px;
     transition: all 0.4s;
+}
+
+.logo:hover{
+    border: solid #116feb 2px;
+    border-radius:4px;
 }
 
 .favoritos:hover{

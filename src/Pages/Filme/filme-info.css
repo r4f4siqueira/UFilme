@@ -32,7 +32,6 @@
     margin-top: 14px;
     margin-left: 0;
     font-size: 20px;
-    border: 0;
     outline: none;
     padding: 12px;
     border-radius: 4px;
@@ -40,9 +39,13 @@
     transition: all 0.5s;
 }
 
-.area-buttons button:hover{
+.salvar{
+    border: 2px solid #116feb;
+}
+
+.salvar:hover {
     background-color: #116feb;
-    color: #fff;
+    /*color: #fff;*/
 }
 
 .area-buttons a{
@@ -51,6 +54,12 @@
     transition: all 0.5s;
 }
 
-.area-buttons a:hover{
+.trailer{
+    border: 2px solid #e05959;
+}
+
+
+.trailer:hover{
+    background-color: #e05959;
     color: #fff;
 }
